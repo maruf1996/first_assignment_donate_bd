@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.best_btn{
+  text-decoration: none;  
+  color: white;
+  background-color: #FF5959;
+  padding: 1rem 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.title_text{
+    font-size: 2.8rem;
+}
+
+.details{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: grey;
+}
+
+/* header section*/
+
+header{
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    text-align: center;
+    color: white;
+}
+.header_title{
+    font-size: 5rem;
+    padding-top: 20rem;
+}
+.header_details{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+/* donate_bd_section */
+
+.donate_bd_section{
+    text-align: center;
+    margin: 6rem 0;
+}
+
+.donate_main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.donate_part{
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.075);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+}
+.donate_part:hover{
+   border:0.1rem solid red;
+    background-color:#FFEEEE;
+    color:red;
+}
+
+.donate_bd_section input{
+    width: 60%;
+    padding: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
