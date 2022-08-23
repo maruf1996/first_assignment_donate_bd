@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap');
 
 *{
     margin: 0;
@@ -14,7 +15,7 @@ body{
   color: white;
   background-color: #FF5959;
   padding: 1rem 2.5rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
 }
 
@@ -28,6 +29,15 @@ body{
     color: grey;
 }
 
+.background_first{
+    background-color: #EDF5F6;
+}
+.background_second{
+    background-color: #FFEEEE;
+}
+.background_thired{
+    background-color: #FFF4D6;
+}
 /* header section*/
 
 header{
@@ -49,18 +59,15 @@ header{
 }
 
 /* donate_bd_section */
-
 .donate_bd_section{
     text-align: center;
     margin: 6rem 0;
 }
-
 .donate_main{
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-
 .donate_part{
     margin: 2rem;
     font-size: 2rem;
@@ -74,13 +81,82 @@ header{
     background-color:#FFEEEE;
     color:red;
 }
-
 .donate_bd_section input{
     width: 60%;
     padding: 1rem;
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
     font-size: 1.5rem;
-    border-radius: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+/* donate_plan_section */
+.donate_plan_section{
+    text-align: center;
+    width: 80%;
+    margin:8rem auto;
+}
+.donate_plan_section_para{
+    width: 60%;
+    margin: 1rem auto;
+}
+.donate_plan_main{
+    display: flex;
+    text-align: start;
+    margin: 4rem 0;
+}
+
+.donate_plan{
+    width: 25%;
+    margin: 0 1.8rem;
+    padding: 3rem;
+    border-radius: 0.5;
+}
+.donate_plan img , .donate_plan h2, .donate_plan p{
+   margin: 1rem 0;
+}
+
+/* get_update_section */
+.get_update_section{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.email_submit_box{
+    width: 50%;
+    margin: 2rem auto;
+    padding: 5rem;
+}
+.email_submit_box input{
+   width: 50%;
+   padding: 1rem;
+   border: none;
+   outline: none;
+   background-color:#D9D9D9;
+   font-size: 1.3rem;
+}
+.email_submit_box button{
+   padding: 1rem 2.5rem;
+   border: none;
+   background-color: #FF5959;
+   font-size: 1.3rem;
+   color: white;
+   margin-left: -0.5rem;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 4rem;
+}
+footer h1{
+    color: #E95253;
+    margin-bottom: 1rem;
+    font-family: 'Lobster', cursive
+}
+footer p{
+    color: gray;
 }
