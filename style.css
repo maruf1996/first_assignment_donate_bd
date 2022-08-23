@@ -146,6 +146,38 @@ header{
    margin-left: -0.5rem;
 }
 
+/* our_activity_section*/
+.our_activity_section{
+    width: 80%;
+    margin: 8rem auto;
+}
+.our_activity_section h1{
+    font-size: 2rem;
+    border-bottom: 2px solid #BCDF80;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.activity_main{
+    display: flex;
+}
+
+.activity_item{
+    width: 22%;
+    margin: 0 3%;
+    text-align: justify;
+}
+.activity_item img{
+    width: 100%;
+    height: 8rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.activity_item p{
+  font-size: 1.3rem;
+  color: rgba(128, 128, 128, 0.493);
+}
+
 /* footer */
 footer{
     text-align: center;
